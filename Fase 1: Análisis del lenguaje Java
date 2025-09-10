@@ -1,0 +1,77 @@
+Fase 1: Análisis del lenguaje Java
+
+    Investiga las características principales de Java como lenguaje de programación empresarial:
+
+⦁	        Tipado fuerte y estático:
+
+Java se considera un lenguaje de tipado fuerte y estático porque:
+
+    1. Estático:
+    Los tipos de datos de las variables se determinan y verifican durante el tiempo de compilación antes de que el programa se ejecute.
+
+2. Fuerte:
+Java aplica reglas estrictas para las conversiones de tipos, evitando las conversiones implícitas (automáticas) y requiriendo conversiones explícitas (manuales) solo con tipos compatibles.
+
+Tipado estático en Java
+
+    Declaración de variables:
+    Debes declarar el tipo de una variable antes de poder usarla (ej. int edad;).
+    Comprobación en compilación:
+    El compilador de Java verifica que los tipos de datos se utilicen correctamente, detectando errores de incompatibilidad de tipos antes de la ejecución del programa.
+
+Tipos ligados a la variable:
+El tipo de una variable no puede cambiar durante la ejecución del programa.
+
+Tipado fuerte en Java
+
+    Reglas estrictas de tipos:
+    Java no permite operaciones automáticas entre tipos de datos incompatibles, como asignar directamente un texto a una variable numérica.
+
+Conversiones explícitas:
+Para convertir un tipo de dato a otro, se debe realizar una conversión explícita, asegurando que los tipos son compatibles.
+Seguridad y prevención de errores:
+Este comportamiento ayuda a prevenir muchos errores comunes en tiempo de ejecución, promoviendo un código más robusto y predecible.
+
+
+⦁	        Portabilidad gracias a la JVM:
+La JVM (Máquina Virtual de Java) otorga portabilidad a Java gracias al principio "escribir una vez, ejecutar en cualquier lugar" (WORA). El código Java se compila en un código intermedio llamado bytecode, el cual es independiente del hardware y el sistema operativo. Cada plataforma (Windows, Linux, macOS) tiene su propia versión de la JVM que traduce este bytecode a código máquina específico, permitiendo así que el mismo programa Java se ejecute en diferentes entornos sin necesidad de modificarlo.
+Cómo funciona la portabilidad a través de la JVM:
+
+    1. Compilación a bytecode
+    : El desarrollador escribe el código fuente Java (.java) que se compila en un archivo de bytecode (.class).
+
+2. Bytecode independiente de la plataforma:
+Este bytecode no está vinculado a ningún sistema operativo o procesador específico.
+3. Ejecución en la JVM:
+La Máquina Virtual de Java (JVM) es la encargada de leer e interpretar este bytecode.
+4. Traducción a código nativo:
+En cada sistema operativo o dispositivo, la versión de la JVM traduce el bytecode a código máquina nativo para que el procesador pueda ejecutarlo.
+
+Ventajas de la portabilidad gracias a la JVM:
+
+    Independencia de la plataforma:
+    Los programas pueden ejecutarse en diferentes sistemas operativos (Windows, Linux, macOS) y arquitecturas de hardware sin cambios.
+
+Desarrollo simplificado:
+Los desarrolladores solo necesitan escribir el código una vez, lo que acelera el desarrollo y reduce la necesidad de crear versiones separadas para cada plataforma.
+Ampliación del alcance:
+Las aplicaciones Java pueden llegar a una audiencia mucho más amplia, ya que pueden ejecutarse en diversos dispositivos y sistemas.
+Eficiencia del bytecode
+: La JVM también puede usar un compilador Just-in-Time (JIT) para convertir el bytecode en código nativo en tiempo de ejecución, optimizando el rendimiento del programa.
+
+
+⦁	        Rico ecosistema de librerías:
+El ecosistema de Java es **maduro y amplio**: existen librerías y frameworks para prácticamente cualquier necesidad (p. ej., Spring para aplicaciones web, Hibernate/JPA para persistencia, Maven/Gradle para construcción, JUnit para pruebas). Esto reduce el tiempo de desarrollo y ofrece soluciones probadas.
+
+⦁	        Orientación a objetos:
+La Programación Orientada a Objetos (POO) en Java es un paradigma que estructura el código alrededor de objetos, que son instancias de clases. Las clases actúan como plantillas para crear objetos, encapsulando sus datos (atributos) y comportamientos (métodos) en una unidad. Java utiliza los principios de la POO —abstracción, encapsulación, herencia y polimorfismo— para crear software modular, reutilizable y fácil de mantener.
+
+
+⦁	        Seguridad y manejo de errores:
+ seguridad en Java incluye el Panel de Control de Java para configurar niveles de seguridad y la plataforma Java 2, que proporciona control de acceso detallado para recursos del sistema y web, protegiendo contra accesos no autorizados. El manejo de errores en Java se realiza mediante excepciones, con las palabras clave try, catch, finally, throw y throws. Las mejores prácticas incluyen usar tipos de excepciones específicos, evitar catch vacíos, utilizar try-with-resources, documentar excepciones y no exponer información detallada del error a los usuarios.
+
+
+⦁	        Soporte para pruebas (JUnit):
+El "soporte para pruebas" de JUnit en Java se refiere al marco de trabajo que permite a los desarrolladores escribir y ejecutar casos de prueba unitarias automatizadas para sus aplicaciones. Para usar JUnit, necesitas una instalación de Java JDK, un entorno de desarrollo integrado (IDE) como Eclipse o IntelliJ IDEA, o una herramienta de compilación como Maven o Gradle para configurar el proyecto. JUnit proporciona clases y anotaciones>> para definir las pruebas y un ejecutor de pruebas que las corre y reporta los resultados.
+
+En resumen Java es un lenguaje que permite evitar errores y ataques, es portable a cualquier sistema operativo. Tiene variadas librerías que permite que se acorten los tiempos de programación, maneja cualquier posible equivocación e incluso posee soporte de pruebas. Ideal para acortar tiempos, manejar errores que hagan perder tiempo, esfuerzo y dinero a las empresas que lo integren.
